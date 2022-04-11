@@ -16,7 +16,7 @@ code {
   align-items: center;
   justify-content: space-between;
 }
-.dark-mode{
+.dark-mode {
   background-color: black;
 }
 .dark-mode h1 {
@@ -36,7 +36,7 @@ code {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
 }
 .Addthought.new {
-  background-color: aqua !important ;
+  background-color: aqua;
   min-height: 250px;
   padding: 1rem;
   margin-top: 1.4rem;
@@ -76,6 +76,9 @@ textarea:focus {
   flex-direction: column;
   justify-content: space-between;
   white-space: pre-wrap;
+}
+.thought span {
+  margin-top: 1.5rem;
 }
 .thought-footer {
   display: flex;
